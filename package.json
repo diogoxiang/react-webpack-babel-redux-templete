@@ -1,0 +1,41 @@
+{
+  "name": "react-webpack-babel-redux-templete",
+  "version": "0.0.1",
+  "description": "react-webpack-babel-redux-templete",
+  "private": true,
+  "author": "Roger",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "webpack --verbose --colors --display-error-details --config src/webpack/webpack.prod.js"
+  },
+  "dependencies": {
+    "classnames": "^2.2.0",
+    "history": "^1.13.1",
+    "promise-polyfill": "^2.1.0",
+    "qs": "^6.0.1",
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2",
+    "react-redux": "^4.0.0",
+    "react-router": "^1.0.0",
+    "redux": "^3.0.4",
+    "redux-thunk": "^1.0.0"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "^3.1.0",
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
+    "css-loader": "^0.22.0",
+    "eslint": "^1.9.0",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.1",
+    "node-sass": "^3.4.2",
+    "react-hot-loader": "^1.3.0",
+    "redux-devtools": "^2.1.5",
+    "sass-loader": "^3.1.1",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1"
+  }
+}
